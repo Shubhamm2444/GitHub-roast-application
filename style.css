@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-section {
+    margin-bottom: 20px;
+}
+
+#username {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#roast-button {
+    background-color: #f0ad4e; /* Orange-ish color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#roast-button:hover {
+    background-color: #d79930; /* Darker orange on hover */
+}
+
+#result-section {
+    display: none; /* Initially hidden */
+}
+
+#roast-message {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+
+** Explanation:
+The HTML structure defines the overall layout of the application, including sections for input, result, and styling elements.
+The CSS styles provide a basic visual design for the elements.
+The JavaScript handles user interaction with the input field and button. It also includes a simulated roasting mechanism
